@@ -1,1 +1,10 @@
-b4
+*{
+    box-sizing: border-box;
+}
+.image1{
+    margin-left: 145px;
+    position: relative;
+}
+.logo{
+    margin-left: 400px;
+}
