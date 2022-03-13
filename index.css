@@ -54,9 +54,11 @@
 }
 .whatwedo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 150px;
     margin: 350px;
+    padding: 40px;
+    padding-top: 50px;
 }
 .design p{
     font-size: 25px;
@@ -69,4 +71,16 @@
 }
 .heading{
     text-align: center;
+    padding-top: 150px;
+    margin-top: 20px;
+}
+.portfolio{
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolio2{
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
 }
