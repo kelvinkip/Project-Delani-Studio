@@ -52,4 +52,21 @@
     word-spacing: 10px;
     font-size: 25px;
 }
-
+.whatwedo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin: 350px;
+}
+.design p{
+    font-size: 25px;
+}
+.product p{
+    font-size: 25px;
+}
+.development p{
+    font-size: 25px;
+}
+.heading{
+    text-align: center;
+}
