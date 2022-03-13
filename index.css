@@ -10,11 +10,11 @@
     background-repeat: no-repeat;
     margin-left: 0 auto;
     margin-right: 0 auto;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     
 }
 .logo{
-    margin-left: 570px;
+    margin-left: 530px;
     padding-top: 150px;
     /* margin-top: 300px; */
     align-items: center;
@@ -23,7 +23,7 @@
 .paragraph{
     color: white;
     text-align: center;
-    padding-left: 110px;
+    /* padding-left: 110px; */
 }
 .mouse{
     margin-left: 1150px;
@@ -43,11 +43,11 @@
     background-repeat: no-repeat;
     margin-left: 0 auto;
     margin-right: 0 auto;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     padding-top: 40px;
     color: white;
     text-align: center;
-    word-spacing: 10px;
+    /* word-spacing: 10px; */
     font-size: 25px;
 }
 /* .servicesp{
@@ -59,8 +59,8 @@
 .whatwedo{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 150px;
-    margin: 350px;
+    /* margin-left: 150px; */
+    /* margin: 350px; */
     padding: 40px;
     padding-top: 50px;
 }
@@ -83,12 +83,13 @@
 .portfolio{
     padding: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .portfolio2{
     padding: 100px;
     display: flex;
-    justify-content: space-evenly;
+    margin: 20px;
+    justify-content: space-around;
 }
 .contact{
     background-image: url("c_image.jpg");
@@ -97,13 +98,43 @@
     position: relative;
     object-fit: cover;
     background-repeat: no-repeat;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    margin-left: 150px;
+    /* margin-left: 0 auto;
+    margin-right: 0 auto; */
+    /* margin-left: 150px; */
     padding-top: 40px;
 }
 .port{
     text-align: center;
     font-size: 25px;
     font-weight: bolder
+}
+.inputname input{
+    background-color: transparent;
+    width: 350px;
+    height: 30px;
+    color: white;
+    border: 2px solid white;
+}
+.contact2{
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 450px; */
+    padding: 150px;
+    margin: 20px;
+}
+.inputemail input{
+    background-color: transparent;
+    width: 350px;
+    height: 30px;
+    color: black;
+    border: 2px solid white;
+}
+.textmessage textarea{
+    height: 70px;
+    width: 700px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 650px;
+    padding-top: 200px;
+
 }
