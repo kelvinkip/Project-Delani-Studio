@@ -31,7 +31,25 @@
 }
 .about{
     text-align: center;
-    word-spacing: 3px;
-    font-size: 20px;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+.services{
+    background-image: url("s_image.jpg");
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-left: 150px;
+    padding-top: 40px;
+}
+.servicesp{
+    color: white;
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 25px;
 }
 
