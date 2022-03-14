@@ -13,7 +13,9 @@
     /* margin-left: 150px; */
     
 }
-.logo{
+.portfoli img{
+    margin: 1%;
+}.logo{
     margin-left: 530px;
     padding-top: 150px;
     /* margin-top: 300px; */
@@ -81,15 +83,15 @@
     font-weight: bolder;
 }
 .portfolio{
-    padding: 100px;
     display: flex;
-    justify-content: space-around;
+    margin-left: 250px;
 }
 .portfolio2{
-    padding: 100px;
     display: flex;
-    margin: 20px;
-    justify-content: space-around;
+    margin-left: 250px;
+}
+.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8{
+    margin: 5px;
 }
 .contact{
     background-image: url("c_image.jpg");
@@ -117,8 +119,9 @@
 }
 .contact2{
     display: flex;
-    justify-content: space-around;
-    padding: 150px;
+    margin-left: 650px;
+}
+.inputname, .inputemail{
     margin: 20px;
 }
 .inputemail input{
@@ -138,9 +141,23 @@
 .social{
     display: flex;
     margin-left: 900px;
-    border: 2px solid black;
 }
 .copyright{
     text-align: center;
     height: 200px;
+}
+.btn{
+    width: 250px;
+    margin-left: 850px;
+}
+.social div{
+    margin:0px;
+}
+.row{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
 }
