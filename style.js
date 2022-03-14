@@ -2,8 +2,6 @@ $(document).ready(function(){
     $("#design").click(function(event){
         $("#image1").show();
         $("#designp").hide()
-        // $("#hide").show();
-        // $("#image1").show()
 
     })
 })
@@ -25,6 +23,7 @@ $(document).ready(function(){
 })
 
 $(document).ready(function(){
+  $("designp").hide()
     $("#design").mouseover(function(){
       $("#designp").show();
       $("#design").hide()
