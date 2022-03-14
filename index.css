@@ -96,13 +96,10 @@
 .contact{
     background-image: url("c_image.jpg");
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     position: relative;
     object-fit: cover;
     background-repeat: no-repeat;
-    /* margin-left: 0 auto;
-    margin-right: 0 auto; */
-    /* margin-left: 150px; */
     padding-top: 40px;
 }
 .port{
@@ -131,12 +128,16 @@
     color: black;
     border: 2px solid white;
 }
-.textmessage textarea{
-    height: 70px;
+#text{
+    height: 300px;
     background-color: transparent;
     border: 2px solid white;
     margin-left: 650px;
+    width: 35%;
 
+}
+#text::placeholder{
+    color: white;
 }
 .social{
     display: flex;
@@ -149,15 +150,9 @@
 .btn{
     width: 250px;
     margin-left: 850px;
+    background-color: blue;
 }
-.social div{
-    margin:0px;
-}
-.row{
-    display: flex;
-    margin: 20px;
-    justify-content: space-evenly;
-}
-.row{
-    display: flex;
+.contact h1{
+    text-align: center;
+    color: white;
 }
