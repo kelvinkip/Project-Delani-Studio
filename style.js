@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("#design").click(function(event){
         $("#image1").show();
-        $("#hide").hide()
+        $("#designp").hide()
         // $("#hide").show();
         // $("#image1").show()
 
@@ -11,7 +11,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#development").click(function(event){
         $("#image2").show();
-        $("#hi").hide();
+        $("#develop").hide();
 
     })
 })
@@ -19,36 +19,36 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#product").click(function(event){
         $("#image3").show();
-        $("#plan").hide();
+        $("#manage").hide();
 
     })
 })
 
 $(document).ready(function(){
     $("#design").mouseover(function(){
-      $("#hide").show();
-      // $("#hide").hided()
+      $("#designp").show();
+      $("#design").hide()
     }).mouseout(function(){
-      $("#hide").hide();
+      $("#designp").hide();
       $("#design").show()
     });
   });
   $(document).ready(function(){
-    $("#design").mouseover(function(){
-      $("#hide").show();
-      // $("#hide").hided()
+    $("#development").mouseover(function(){
+      $("#develop").show();
+      $("#development").hide()
     }).mouseout(function(){
-      $("#hide").hide();
-      $("#design").show()
+      $("#develop").hide();
+      $("#development").show()
     });
   });
   $(document).ready(function(){
-    $("#design").mouseover(function(){
-      $("#hide").show();
-      // $("#hide").hided()
+    $("#product").mouseover(function(){
+      $("#manage").show();
+      $("#product").hide()
     }).mouseout(function(){
-      $("#hide").hide();
-      $("#design").show()
+      $("#manage").hide();
+      $("#product").show()
     });
   });
 let myForm=document.querySelector("#email")
