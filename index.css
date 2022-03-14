@@ -118,7 +118,6 @@
 .contact2{
     display: flex;
     justify-content: space-around;
-    /* margin-left: 450px; */
     padding: 150px;
     margin: 20px;
 }
@@ -131,10 +130,17 @@
 }
 .textmessage textarea{
     height: 70px;
-    width: 700px;
     background-color: transparent;
     border: 2px solid white;
     margin-left: 650px;
-    padding-top: 200px;
 
+}
+.social{
+    display: flex;
+    margin-left: 900px;
+    border: 2px solid black;
+}
+.copyright{
+    text-align: center;
+    height: 200px;
 }
