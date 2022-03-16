@@ -50,9 +50,24 @@ $(document).ready(function(){
       $("#product").show()
     });
   });
-let myForm=document.querySelector("#email")
-  myForm.addEventListener("submit", (e) => {
-    e.preventDefault()
-    let myname = myForm.myname.value;
-    alert(myname + "" + " we have received your message.Thank you for reaching out to us." );
-})
+// let myForm=document.querySelector("#email")
+//   myForm.addEventListener("submit", (e) => {
+//     e.preventDefault()
+//     let myname = myForm.myname.value;
+//     alert(myname + "" + " we have received your message.Thank you for reaching out to us." );
+// })
+$("form#form").submit(function(event){
+  // event.preventDefault();
+ var name = $("input#name").val();
+ var email = $("input#email").val();
+ var message = $("textarea#message").val();
+
+ if ($("input#name").val() && $("input#email").val()){
+ alert ("Hey " + name + ", we have received your wonderful message. Thank you for reaching out to Delani Studio, We shall get back to you ASAP!!");
+ }
+ else {
+     alert("Please enter your name and email!");
+ }
+   
+});
+
