@@ -156,3 +156,18 @@
     text-align: center;
     color: white;
 }
+.grey{
+    display: none;
+    color: white;
+    position: relative;
+    top: -50%;
+    border: 2px solid white;
+    height: 1cm;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    font-weight: bolder;
+    
+
+}
+.
