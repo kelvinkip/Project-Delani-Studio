@@ -170,4 +170,78 @@
     
 
 }
-.
+.ontario{
+    display: none;
+    color: white;
+    position: relative;
+    top: -50%;
+    border: 2px solid white;
+    height: 1cm;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    font-weight: bolder;
+}
+.orange{
+    display: none;
+    color: white;
+    position: relative;
+    top: -50%;
+    border: 2px solid white;
+    height: 1cm;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    font-weight: bolder;
+}
+.carrey{
+    display: none;
+    color: white;
+    position: relative;
+    top: -50%;
+    border: 2px solid white;
+    height: 1cm;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    font-weight: bolder;
+}
+.good{
+    display: none;
+    color: white;
+    position: relative;
+    top: -50%;
+    border: 2px solid white;
+    height: 1cm;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    font-weight: bolder;
+}
+.cotroll{
+    display: none;
+    color: white;
+    position: relative;
+    top: -50%;
+    border: 2px solid white;
+    height: 1cm;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    font-weight: bolder;
+}
+.mockup{
+    display: none;
+    color: white;
+    position: relative;
+    top: -50%;
+    border: 2px solid white;
+    height: 1cm;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+

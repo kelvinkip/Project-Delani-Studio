@@ -42,6 +42,53 @@
 
 
 
+    $(".work1").mouseover(function () {
+      $(".grey").show();
+      }).mouseout(function () {
+      $(".grey").hide();
+      })
+      
+      $(".work2").mouseover(function () {
+      $(".ontario").show();
+      }).mouseout(function () {
+      $(".ontario").hide();
+      });
+      
+      $(".work3").mouseover(function () {
+      $(".orange").show();
+      }).mouseout(function () {
+      $(".orange").hide();
+      });
+      
+      $(".work4").mouseover(function () {
+      $(".carrey").show();
+      }).mouseout(function () {
+      $(".carrey").hide();
+      });
+      
+      $(".work5").mouseover(function () {
+      $(".good").show();
+      }).mouseout(function () {
+      $(".good").hide();
+      });
+      
+      $(".work6").mouseover(function () {
+      $(".controll").show();
+      }).mouseout(function () {
+      $(".controll").hide();
+      });
+      
+      $(".work7").mouseover(function () {
+        $(".mockup").show();
+        }).mouseout(function () {
+        $(".mockup").hide();
+        });
+        $(".work8").mouseover(function () {
+        $(".giraffe").show();
+        }).mouseout(function () {
+        $(".giraffe").hide();
+})
+
 
 
 
